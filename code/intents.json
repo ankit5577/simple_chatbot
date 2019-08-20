@@ -1,0 +1,33 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["goodbye ! for more information you can call 1800-xxx-xxxx", "Talk to you later ! for more information you can call 1800-xxx-xxxx"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Tim.", "I'm Tim!", "I'm Tim aka Tech With Tim."],
+         "context_set": ""
+        },
+        {"tag": "numbers",
+         "patterns": ["Can i have phone number of CSE hod", "Contact number for DCPD department", "whome should i contact for admission purposes", "how can i contact dean of cse"],
+         "responses": ["Office number of CSE hod is 1800-789-2356", "you can contact DCPD using 98554200114", "you should contact our Admission cell for admission purposes - 78445424", "98777688898 (Dean of CSE: Vinay Goyal)"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation", "when should i come to college for admissions", "admission timings"],
+         "responses": ["We are open 9:30am-5pm Monday-Friday"],
+         "context_set": ""
+        }
+   ]
+}
